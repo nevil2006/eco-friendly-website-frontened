@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ABOUT</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: lightgreen;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding-top: 60px;
+    }
+      .top-right-nav {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      z-index: 1000;
+    }
+
+    .top-right-nav a {
+      text-decoration: none;
+      background-color: #d9fcd9;
+      padding: 8px 16px;
+      color: #2e2e2e;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .top-right-nav a:hover {
+      background-color: #b2eab2;
+    }
+    /* ✅ Responsive wrapper */
+    .carousel-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    section {
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #2e2e2e;
+      padding: 40px;
+      border-radius: 15px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    section h2 {
+      font-size: 2.2rem;
+    }
+
+    section p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+
+    .carousel-caption h5 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .carousel img {
+      max-height: 500px;
+      object-fit: cover;
+      border-radius: 10px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="top-right-nav">
+    <a href="home.html">home</a>
+  </div>
+
+
+  <div class="container-fluid mt-5 carousel-wrapper">
+    <h2 class="text-center mb-4 text-success">🌿 Our Eco-Friendly Products 🌿</h2>
+
+    <div id="ecoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/1.jpg" class="d-block w-100" alt="Grow Plant">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Grow Your Own Plant at Home</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/1.1.jpeg" class="d-block w-100" alt="Seed Pencil">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Plantable Seed Pencils for a Greener Tomorrow</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/favicon.ico.jpg" class="d-block w-100" alt="Support Trees">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Support Tree Plantation with Every Purchase</h5>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#ecoCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#ecoCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ✅ About Us Section -->
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Petals and Pages is dedicated to creating eco-friendly, plantable seed paper products that blend nature with creativity.</p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
