@@ -11,6 +11,5 @@ A responsive website promoting plantable seed-based products with Bootstrap caro
 - Carousel slider for eco-products
 - Responsive design
 
-![Demo Preview](demo.gif)
 
 
